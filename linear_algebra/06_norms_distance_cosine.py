@@ -27,3 +27,10 @@ cosine_AC = np.dot(A, C) / (
     np.linalg.norm(A) * np.linalg.norm(C)
 )
 print("Cosine similarity A-C:", cosine_AC)
+
+# eoutput
+# L1 norm of A: 7.0
+# L2 norm of A: 5.0
+# Euclidean distance A-B: 5.0
+# Cosine similarity A-B: 1.0
+# Cosine similarity A-C: 0.96
